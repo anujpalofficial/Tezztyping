@@ -1,3 +1,4 @@
+import './index.css';
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { Settings, Keyboard, RefreshCcw, Info, BarChart3, Volume2, VolumeX, Sun, Type, Sliders, Maximize } from 'lucide-react';
 
