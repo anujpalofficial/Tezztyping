@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo, useCallback } from 'react';
-import { Settings, Keyboard, RefreshCcw, Info, BarChart3, Volume2, VolumeX, Sun, Type, Sliders, Maximize, GraduationCap, Headphones, Gamepad2, PlayCircle, LockKeyhole, ArrowLeft, Play, Rewind, Search, AppWindow, SquareMenu, Instagram, Youtube, Mail } from 'lucide-react';
+import { Settings, Keyboard, RefreshCcw, Info, BarChart3, Volume2, VolumeX, Sun, Type, Sliders, Maximize, GraduationCap, Headphones, Gamepad2, PlayCircle, LockKeyhole, ArrowLeft, Play, Rewind, Search, AppWindow, SquareMenu, Camera, Video, Mail } from 'lucide-react';
 
 // ==========================================
 // 1. CONSTANTS, DICTIONARIES & CONFIGURATION
@@ -940,12 +940,12 @@ export default function App() {
             
             {/* Instagram Link */}
             <a href="https://www.instagram.com/anujpal_official/" target="_blank" rel="noopener noreferrer" className="p-3 bg-[var(--text-sub)]/5 rounded-full hover:bg-[#E1306C]/10 hover:text-[#E1306C] text-[var(--text-sub)] transition-all hover:-translate-y-1 hover:shadow-lg">
-              <Instagram size={24} />
+              <Camera size={24} />
             </a>
 
             {/* YouTube Link */}
             <a href="https://www.youtube.com/channel/UCQU4GVWSFN7X75VelLKROKQ" target="_blank" rel="noopener noreferrer" className="p-3 bg-[var(--text-sub)]/5 rounded-full hover:bg-[#FF0000]/10 hover:text-[#FF0000] text-[var(--text-sub)] transition-all hover:-translate-y-1 hover:shadow-lg">
-              <Youtube size={24} />
+              <Video size={24} />
             </a>
 
             {/* Institute Website Link */}
